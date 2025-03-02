@@ -1,5 +1,5 @@
 {
-  "name": "real-estate-price-predictor",
+    "name": "real-estate-prediction",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://denilrathod.github.io/real-estate-price-predictor",
@@ -13,20 +13,21 @@
     "brain.js": "^2.0.0-beta.24",
     "chart.js": "^4.4.8",
     "react": "^19.0.0",
-    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
-  "start": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-},
-
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -42,7 +43,11 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 edge version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
