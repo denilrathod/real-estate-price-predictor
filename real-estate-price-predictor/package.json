@@ -2,7 +2,8 @@
     "name": "real-estate-prediction",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://denilrathod.github.io/real-estate-price-predictor",
+    "homepage": "https://denilrathod.github.io/CSDD2002_Assignment_2",
+
     "dependencies": {
         "@testing-library/dom": "^10.4.0",
         "@testing-library/jest-dom": "^6.6.3",
