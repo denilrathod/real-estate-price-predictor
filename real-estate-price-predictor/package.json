@@ -1,8 +1,9 @@
 {
-  "homepage": "https://github.com/denilrathod/CSDD2002_Assignment_2.git",
   "name": "real-estate-price-predictor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://denilrathod.github.io/real-estate-price-predictor",
+
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -18,9 +19,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+  "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-  },
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
